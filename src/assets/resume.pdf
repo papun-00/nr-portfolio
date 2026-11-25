@@ -1,0 +1,77 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 5332 >>
+stream
+q 0.153 0.094 0.494 rg 0 774 612 18 re f Q
+q 0.153 0.094 0.494 rg 54 682 40 2.5 re f Q
+BT /F2 22 Tf 0.10 0.12 0.18 rg 54 736 Td (NIHAR RANJAN MOHAPATRA) Tj ET
+BT /F2 10.5 Tf 0.153 0.094 0.494 rg 54 718 Td (Computer Science Engineer & Cyber Security Specialist | Full-Stack Developer) Tj ET
+BT /F1 9 Tf 0.35 0.38 0.45 rg 54 702 Td (Bhubaneswar, Odisha, India  |  nmohapatra079@gmail.com  |  github.com/papun-00  |  IST UTC+5:30) Tj ET
+BT /F2 11 Tf 0.153 0.094 0.494 rg 54 668 Td (ENGINEERING PROFILE) Tj ET
+BT /F1 9 Tf 0.15 0.18 0.22 rg 54 653 Td (Undergraduate scholar at Gandhi Engineering College (GEC Autonomous College) specializing in Cyber Security and Trainee System Engineer) Tj ET
+BT /F1 9 Tf 0.15 0.18 0.22 rg 54 641 Td (Intern at Cyfen Labs. Passionate about network packet inspection, defensive threat modeling, cryptographic protocols, and secure full-stack web systems.) Tj ET
+BT /F2 11 Tf 0.153 0.094 0.494 rg 54 617 Td (EXPERIENCE & INTERNSHIPS) Tj ET
+BT /F2 9.5 Tf 0.10 0.12 0.18 rg 54 602 Td (Trainee System Engineer Intern  |  Cyfen Labs Private Limited  |  Bhubaneswar, Odisha  |  March 2026 - Present) Tj ET
+BT /F1 8.5 Tf 0.25 0.28 0.35 rg 54 590 Td (- Engineering and analyzing live corporate cybersecurity systems, network telemetry, and defensive security toolchains.) Tj ET
+BT /F1 8.5 Tf 0.25 0.28 0.35 rg 54 579 Td (- Working under senior researchers to enhance network defense, API authorization hardening, and resilient software development.) Tj ET
+BT /F2 9.5 Tf 0.10 0.12 0.18 rg 54 564 Td (Independent Systems & Security Developer  |  Open Source  |  2024 - Present) Tj ET
+BT /F1 8.5 Tf 0.25 0.28 0.35 rg 54 552 Td (- Built custom packet inspection utilities, zero-knowledge cryptographic lockers, and automated OWASP vulnerability scanners.) Tj ET
+BT /F1 8.5 Tf 0.25 0.28 0.35 rg 54 541 Td (- Developed production web portals with high accessibility (WCAG), responsive performance, and modern interaction systems.) Tj ET
+BT /F2 11 Tf 0.153 0.094 0.494 rg 54 517 Td (EDUCATION & ACADEMICS) Tj ET
+BT /F2 9.5 Tf 0.10 0.12 0.18 rg 54 502 Td (B.Tech in Computer Science & Engineering (Specialization in Cyber Security)) Tj ET
+BT /F1 9 Tf 0.20 0.22 0.28 rg 54 490 Td (Gandhi Engineering College (GEC Autonomous College), Bhubaneswar, Odisha  |  CGPA: 8.6  |  Expected 2027) Tj ET
+BT /F1 8.5 Tf 0.35 0.38 0.45 rg 54 479 Td (Focus: Operating System Internals, Applied Cryptography, Packet-Level Network Security, Database Systems & Vulnerability Testing.) Tj ET
+BT /F2 9.5 Tf 0.10 0.12 0.18 rg 54 464 Td (Diploma in Engineering (Computer Science & Engineering Track)) Tj ET
+BT /F1 9 Tf 0.20 0.22 0.28 rg 54 452 Td (BIT Polytechnic, Odisha  |  Completed with Academic Excellence) Tj ET
+BT /F1 8.5 Tf 0.35 0.38 0.45 rg 54 441 Td (Core grounding in C/C++ programming logic, hardware architecture, microprocessors, and network fundamentals.) Tj ET
+BT /F2 11 Tf 0.153 0.094 0.494 rg 54 417 Td (FEATURED PROJECTS) Tj ET
+BT /F2 9.5 Tf 0.10 0.12 0.18 rg 54 402 Td (SentinelGuard  |  AI-Powered Network Packet Analyzer & Intrusion Detection System) Tj ET
+BT /F1 8.5 Tf 0.25 0.28 0.35 rg 54 390 Td (- Multi-threaded packet capture engine built with Python & Scapy; detects SYN floods, port scans, and protocol anomalies in real time.) Tj ET
+BT /F2 9.5 Tf 0.10 0.12 0.18 rg 54 375 Td (CipherVault  |  Zero-Knowledge Multi-Tier Cryptographic Locker) Tj ET
+BT /F1 8.5 Tf 0.25 0.28 0.35 rg 54 363 Td (- End-to-end authenticated AES-256-GCM encryption with Argon2id memory-hard key derivation and secure file shredding.) Tj ET
+BT /F2 9.5 Tf 0.10 0.12 0.18 rg 54 348 Td (NetRecon  |  Automated Attack Surface Mapper & Port Scanner) Tj ET
+BT /F1 8.5 Tf 0.25 0.28 0.35 rg 54 336 Td (- High-velocity asynchronous TCP/UDP socket scanner with banner grabbing, OS fingerprinting heuristics, and vulnerability reporting.) Tj ET
+BT /F2 9.5 Tf 0.10 0.12 0.18 rg 54 321 Td (WebShield  |  Automated OWASP Security Auditor & Header Hardener) Tj ET
+BT /F1 8.5 Tf 0.25 0.28 0.35 rg 54 309 Td (- Analyzes HTTP headers (CSP, HSTS, X-Frame-Options), audits SSL/TLS cipher suites, and checks OWASP compliance.) Tj ET
+BT /F2 11 Tf 0.153 0.094 0.494 rg 54 285 Td (TECHNICAL SKILLS & TOOLING) Tj ET
+BT /F2 9 Tf 0.15 0.18 0.22 rg 54 270 Td (Languages: ) Tj ET
+BT /F1 9 Tf 0.25 0.28 0.35 rg 115 270 Td (Python, C, C++, JavaScript (ES6+), HTML5, CSS3, SQL, Bash / Shell Scripting) Tj ET
+BT /F2 9 Tf 0.15 0.18 0.22 rg 54 257 Td (Cyber & Defense: ) Tj ET
+BT /F1 9 Tf 0.25 0.28 0.35 rg 140 257 Td (Ethical Hacking, OWASP Top 10, Threat Modeling, Scapy, Wireshark, Nmap, Cryptography (AES, Argon2id)) Tj ET
+BT /F2 9 Tf 0.15 0.18 0.22 rg 54 244 Td (Systems & Web: ) Tj ET
+BT /F1 9 Tf 0.25 0.28 0.35 rg 140 244 Td (Linux (Arch/Kali/Ubuntu), TCP/IP Protocols, Firewalls, React, Tailwind CSS, Motion, Git / GitHub) Tj ET
+BT /F2 11 Tf 0.153 0.094 0.494 rg 54 220 Td (CERTIFICATIONS & INTERESTS) Tj ET
+BT /F1 8.5 Tf 0.25 0.28 0.35 rg 54 206 Td (- Certified Ethical Hacker (CEH) Practical Track  |  Google Cybersecurity Professional Certificate) Tj ET
+BT /F1 8.5 Tf 0.25 0.28 0.35 rg 54 195 Td (- Cisco Networking Academy: Network Defense  |  Linux Professional & Kernel Hardening) Tj ET
+BT /F1 8.5 Tf 0.25 0.28 0.35 rg 54 182 Td (- Core Interests: Technology & Next-Gen Compute, Cyber Security & CTFs, Nature & Outdoors, Travelling, Hardware Innovation) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000266 00000 n 
+0000004500 00000 n 
+0000004580 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+4665
+%%EOF

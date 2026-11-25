@@ -54,6 +54,8 @@ import {
   WifiHigh,
   X,
 } from "@phosphor-icons/react";
+import profilePic from "./assets/nihar-profile.jpg";
+import resumePdf from "./assets/resume.pdf";
 
 const image = (id, width = 1200) =>
   `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${width}&q=85`;
@@ -1089,7 +1091,7 @@ function Header({ theme, toggleTheme, soundEnabled, toggleSound }) {
               {soundEnabled ? <SpeakerHigh size={16} /> : <SpeakerSlash size={16} />}
             </button>
             <ThemeToggle theme={theme} toggleTheme={toggleTheme} soundEnabled={soundEnabled} />
-            <a className="button button-primary button-small" href="/resume.pdf" download>
+            <a className="button button-primary button-small" href={resumePdf} download>
               Resume <ArrowDownRight size={15} weight="bold" />
             </a>
           </div>
@@ -1104,7 +1106,7 @@ function Header({ theme, toggleTheme, soundEnabled, toggleSound }) {
             {soundEnabled ? <SpeakerHigh size={16} /> : <SpeakerSlash size={16} />}
           </button>
           <ThemeToggle theme={theme} toggleTheme={toggleTheme} soundEnabled={soundEnabled} />
-          <a className="button button-primary button-small resume-link" href="/resume.pdf" download>
+          <a className="button button-primary button-small resume-link" href={resumePdf} download>
             Resume <ArrowDownRight size={15} weight="bold" />
           </a>
           <button
@@ -1198,7 +1200,7 @@ function Footer() {
               Coordinates: 20.2961° N, 85.8245° E<br />
               Local Time: {istTime || "Loading..."} IST
             </p>
-            <a href="/resume.pdf" download className="button button-outline button-small" style={{ marginTop: "10px" }}>
+            <a href={resumePdf} download className="button button-outline button-small" style={{ marginTop: "10px" }}>
               Download PDF Resume <ArrowDownRight size={14} />
             </a>
           </div>
@@ -2561,19 +2563,19 @@ function FloatingDock({ theme, toggleTheme, soundEnabled, toggleSound, isAmbient
       <Link to="/projects" className="dock-item" title="Deployments 🚀" onClick={() => playSound("click", soundEnabled)}>
         🚀
       </Link>
-      <a href="/#security-tests" className="dock-item" title="Security Tests Lab 🧪" onClick={() => playSound("click", soundEnabled)}>
+      <a href={`${import.meta.env.BASE_URL}#security-tests`} className="dock-item" title="Security Tests Lab 🧪" onClick={() => playSound("click", soundEnabled)}>
         🧪
       </a>
-      <a href="/#equipment" className="dock-item" title="Equipment Arsenal 🛠️" onClick={() => playSound("click", soundEnabled)}>
+      <a href={`${import.meta.env.BASE_URL}#equipment`} className="dock-item" title="Equipment Arsenal 🛠️" onClick={() => playSound("click", soundEnabled)}>
         🛠️
       </a>
-      <a href="/#entropy-lab" className="dock-item" title="Entropy Lab 🛡️" onClick={() => playSound("click", soundEnabled)}>
+      <a href={`${import.meta.env.BASE_URL}#entropy-lab`} className="dock-item" title="Entropy Lab 🛡️" onClick={() => playSound("click", soundEnabled)}>
         🛡️
       </a>
-      <a href="/#packet-stream" className="dock-item" title="Packet Stream 📡" onClick={() => playSound("click", soundEnabled)}>
+      <a href={`${import.meta.env.BASE_URL}#packet-stream`} className="dock-item" title="Packet Stream 📡" onClick={() => playSound("click", soundEnabled)}>
         📡
       </a>
-      <a href="/#terminal" className="dock-item" title="Terminal Console 💻" onClick={() => playSound("click", soundEnabled)}>
+      <a href={`${import.meta.env.BASE_URL}#terminal`} className="dock-item" title="Terminal Console 💻" onClick={() => playSound("click", soundEnabled)}>
         💻
       </a>
       <div className="dock-divider" />
@@ -2659,7 +2661,7 @@ function HomePage({ soundEnabled, isAmbient, toggleAmbient }) {
               <Link to="/projects" className="button button-primary">
                 Explore Deployments 🚀 <ArrowRight size={16} weight="bold" />
               </Link>
-              <a href="/resume.pdf" download className="button button-outline">
+              <a href={resumePdf} download className="button button-outline">
                 Download Resume 📄 <ArrowDownRight size={15} />
               </a>
             </div>
@@ -2678,7 +2680,7 @@ function HomePage({ soundEnabled, isAmbient, toggleAmbient }) {
         <Reveal className="hero-visual" delay={0.1}>
           <div className="hero-avatar-frame">
             <img
-              src="/nihar-profile.jpg"
+              src={profilePic}
               alt="Nihar Ranjan Mohapatra portrait"
               fetchPriority="high"
             />

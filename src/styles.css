@@ -9,7 +9,7 @@
   --heading-color: #242222;
   --bg-color: #ffffff;
   --bg-card: rgba(255, 255, 255, 0.82);
-  --bg-img: url("/bg-mesh.jpg") no-repeat center center fixed;
+  --bg-img: url("./assets/bg-mesh.jpg") no-repeat center center fixed;
   --bg-blur: rgba(255, 255, 255, 0.28);
   --link-color: #333333;
   --link-active-color: #2563eb;
